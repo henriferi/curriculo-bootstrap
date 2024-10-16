@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bg-primary-custom {
+    background-color: #8e24aa;
+    color: white;
+}
+
+.section-title {
+    color: #8e24aa;
+}

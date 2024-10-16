@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Celio Henrique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="./celio.png" alt="Foto de Perfil" class="profile-pic mb-3">
+            </div>
+            <div class="col-md-9">
+                <h1>Celio Henrique</h1>
+                <p>Desenvolvedor Web Fullstack</p>
+                <p><strong>Email:</strong> henriquefernandes.gouveia@gmail.com | <strong>Telefone:</strong> (81) 98622-3012</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/henrique-fernandes-a29057214/" target="_blank">https://www.linkedin.com/in/henrique-fernandes-a29057214/</a></p>
+                <p><strong>Github:</strong> <a href="https://github.com/henriferi" target="_blank">https://github.com/henriferi</a></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">Educação</h2>
+                <ul>
+                    <li><strong>Curso:</strong> Tecnólogo em Análise e Desenvolvimento de Sistemas - Faculdade Senac (2024 - 2026)</li>
+                </ul>
+            </div>
+
+            <div class="col-md-12">
+                <h2 class="section-title">Experiência Profissional</h2>
+                <ul>
+                    <li>
+                        <strong>Assistente de Planejamento</strong> - Empresa Globo de Transporte (2022 - Atual)
+                        <p>Elaboração de escala de motoristas e quadro de horario.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-12">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li>HTML5/CSS3</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Python</li>
+                            <li>TailwindCSS</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Styled-Components</li>
+                            <li>ReactJS</li>
+                            <li>NodeJS</li>
+                            <li>NextJS</li>
+                            <li>Git/GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Banco de Dados (SQL/NoSQL)</li>
+                            <li>APIs RESTful</li>
+                            <li>Design Responsivo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <h2 class="section-title">Projetos</h2>
+                <ul>
+                    <li><strong>Projeto 1:</strong> Sistema de E-commerce - <a href="https://github.com/henriferi/divineSweets" target="_blank">divineSweets</a></li>
+                    <li><strong>Projeto 2:</strong> CRUD - <a href="https://github.com/henriferi/app-bd" target="_blank">CRUD TypeScript</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2 class="section-title">Formulário de Freelancer</h2>
+                <form id="freelancer-form" enctype="multipart/form-data">
+                    <fieldset class="border p-4">
+                        <legend class="form-section-title">Informações Pessoais</legend>
+                        <div class="form-group">
+                            <label for="first-name">Nome:</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Sobrenome:</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Sobrenome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="email@exemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="border p-4 mt-4">
+                        <legend class="form-section-title">Informações do Serviço</legend>
+                        <div class="form-group">
+                            <label for="language">Língua aplicada no serviço:</label>
+                            <select class="form-control" id="language" required>
+                                <option value="">Selecione...</option>
+                                <option>Inglês</option>
+                                <option>Espanhol</option>
+                                <option>Francês</option>
+                                <option>Português (pt-br)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="prototype">Upload de Protótipo:</label>
+                            <input type="file" class="form-control-file" id="prototype" accept=".pdf, .doc, .docx, .jpeg, .png" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferred-languages">Linguagens preferidas:</label>
+                            <select multiple class="form-control" id="preferred-languages">
+                                <option>JavaScript</option>
+                                <option>Python</option>
+                                <option>Java</option>
+                                <option>PHP</option>
+                                <option>C#</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Banco de dados recomendado:</label>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="database" id="mysql" value="MySQL" required>
+                                    <label class="form-check-label" for="mysql">MySQL</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="database" id="mongodb" value="MongoDB" required>
+                                    <label class="form-check-label" for="mongodb">MongoDB</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="database" id="postgresql" value="PostgreSQL" required>
+                                    <label class="form-check-label" for="postgresql">PostgreSQL</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="meeting-time">Turno preferido para reuniões:</label>
+                            <select class="form-control" id="meeting-time" required>
+                                <option value="">Selecione...</option>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="best-time">Melhor horário para reuniões:</label>
+                            <input type="time" class="form-control" id="best-time" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="deadline">Previsão de entrega desejada:</label>
+                            <input type="date" class="form-control" id="deadline" required>
+                        </div>
+                    </fieldset>
+
+                    <div class="mt-4">
+                        <button type="reset" class="btn btn-secondary">Limpar</button>
+                        <button type="submit" class="btn btn-primary bg-primary-custom">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer class="mt-5 text-center">
+            <p>© 2024 - Celio Henrique</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Máscara de telefone -->
+    <script>
+        document.getElementById('phone').addEventListener('input', function (e) {
+            let x = e.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0,5})(\d{0,4})/);
+            e.target.value = (!x[2]) ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+        });
+
+        // Validação do formulário
+        document.getElementById('freelancer-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            if (!this.checkValidity()) {
+                alert('Por favor, preencha todos os campos obrigatórios corretamente.');
+            } else {
+                alert('Formulário enviado com sucesso!');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
